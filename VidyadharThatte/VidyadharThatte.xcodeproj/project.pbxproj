@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C28E19D51AEC6A7400F72121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E19D41AEC6A7400F72121 /* AppDelegate.swift */; };
+		C28E19D81AEC6A7400F72121 /* VidyadharThatte.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C28E19D61AEC6A7400F72121 /* VidyadharThatte.xcdatamodeld */; };
+		C28E19DA1AEC6A7400F72121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E19D91AEC6A7400F72121 /* ViewController.swift */; };
+		C28E19DD1AEC6A7400F72121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28E19DB1AEC6A7400F72121 /* Main.storyboard */; };
+		C28E19DF1AEC6A7400F72121 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28E19DE1AEC6A7400F72121 /* Images.xcassets */; };
+		C28E19E21AEC6A7400F72121 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C28E19E01AEC6A7400F72121 /* LaunchScreen.xib */; };
+		C28E19EE1AEC6A7400F72121 /* VidyadharThatteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E19ED1AEC6A7400F72121 /* VidyadharThatteTests.swift */; };
+		C28E19F81AEC744800F72121 /* SetInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E19F71AEC744800F72121 /* SetInformation.swift */; };
+		C2E227561AED69380022C5CA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E227551AED69380022C5CA /* Bolts.framework */; };
+		C2E227581AED693C0022C5CA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E227571AED693C0022C5CA /* Parse.framework */; };
+		C2E2275A1AED696A0022C5CA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E227591AED696A0022C5CA /* AudioToolbox.framework */; };
+		C2E2275C1AED69710022C5CA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E2275B1AED69710022C5CA /* CFNetwork.framework */; };
+		C2E2275E1AED69790022C5CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E2275D1AED69790022C5CA /* CoreGraphics.framework */; };
+		C2E227601AED69890022C5CA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E2275F1AED69890022C5CA /* MobileCoreServices.framework */; };
+		C2E227621AED698F0022C5CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E227611AED698F0022C5CA /* QuartzCore.framework */; };
+		C2E227641AED69970022C5CA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E227631AED69970022C5CA /* Security.framework */; };
+		C2E227661AED69A60022C5CA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E227651AED69A60022C5CA /* StoreKit.framework */; };
+		C2E227681AED69B20022C5CA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E227671AED69B20022C5CA /* SystemConfiguration.framework */; };
+		C2E2276A1AED69C00022C5CA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E227691AED69C00022C5CA /* libz.dylib */; };
+		C2E2276C1AED69CB0022C5CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E2276B1AED69CB0022C5CA /* libsqlite3.dylib */; };
+		C2E2276D1AED6A020022C5CA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28E19F91AEC78CB00F72121 /* CoreLocation.framework */; };
+		C2E227711AED6DAF0022C5CA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E227701AED6DAF0022C5CA /* History.swift */; };
+		C2E227751AED6E200022C5CA /* SavedLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E227741AED6E200022C5CA /* SavedLocations.swift */; };
+		C2E227771AED7B430022C5CA /* LandingScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E227761AED7B430022C5CA /* LandingScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C28E19E81AEC6A7400F72121 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C28E19C71AEC6A7400F72121 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28E19CE1AEC6A7400F72121;
+			remoteInfo = VidyadharThatte;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C28E19CF1AEC6A7400F72121 /* VidyadharThatte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidyadharThatte.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28E19D31AEC6A7400F72121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28E19D41AEC6A7400F72121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C28E19D71AEC6A7400F72121 /* VidyadharThatte.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VidyadharThatte.xcdatamodel; sourceTree = "<group>"; };
+		C28E19D91AEC6A7400F72121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C28E19DC1AEC6A7400F72121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C28E19DE1AEC6A7400F72121 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C28E19E11AEC6A7400F72121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C28E19E71AEC6A7400F72121 /* VidyadharThatteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VidyadharThatteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28E19EC1AEC6A7400F72121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28E19ED1AEC6A7400F72121 /* VidyadharThatteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VidyadharThatteTests.swift; sourceTree = "<group>"; };
+		C28E19F71AEC744800F72121 /* SetInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetInformation.swift; sourceTree = "<group>"; };
+		C28E19F91AEC78CB00F72121 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C2E227551AED69380022C5CA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "parse-library-1.7.1/Bolts.framework"; sourceTree = "<group>"; };
+		C2E227571AED693C0022C5CA /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "parse-library-1.7.1/Parse.framework"; sourceTree = "<group>"; };
+		C2E227591AED696A0022C5CA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C2E2275B1AED69710022C5CA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C2E2275D1AED69790022C5CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2E2275F1AED69890022C5CA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C2E227611AED698F0022C5CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C2E227631AED69970022C5CA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C2E227651AED69A60022C5CA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C2E227671AED69B20022C5CA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C2E227691AED69C00022C5CA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C2E2276B1AED69CB0022C5CA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C2E227701AED6DAF0022C5CA /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = History.swift; path = ../History.swift; sourceTree = "<group>"; };
+		C2E227741AED6E200022C5CA /* SavedLocations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SavedLocations.swift; path = ../SavedLocations.swift; sourceTree = "<group>"; };
+		C2E227761AED7B430022C5CA /* LandingScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C28E19CC1AEC6A7400F72121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E2276D1AED6A020022C5CA /* CoreLocation.framework in Frameworks */,
+				C2E2276C1AED69CB0022C5CA /* libsqlite3.dylib in Frameworks */,
+				C2E2276A1AED69C00022C5CA /* libz.dylib in Frameworks */,
+				C2E227681AED69B20022C5CA /* SystemConfiguration.framework in Frameworks */,
+				C2E227661AED69A60022C5CA /* StoreKit.framework in Frameworks */,
+				C2E227641AED69970022C5CA /* Security.framework in Frameworks */,
+				C2E227621AED698F0022C5CA /* QuartzCore.framework in Frameworks */,
+				C2E227601AED69890022C5CA /* MobileCoreServices.framework in Frameworks */,
+				C2E2275E1AED69790022C5CA /* CoreGraphics.framework in Frameworks */,
+				C2E2275C1AED69710022C5CA /* CFNetwork.framework in Frameworks */,
+				C2E2275A1AED696A0022C5CA /* AudioToolbox.framework in Frameworks */,
+				C2E227581AED693C0022C5CA /* Parse.framework in Frameworks */,
+				C2E227561AED69380022C5CA /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28E19E41AEC6A7400F72121 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C28E19C61AEC6A7400F72121 = {
+			isa = PBXGroup;
+			children = (
+				C2E227541AED692E0022C5CA /* Frameworks */,
+				C28E19D11AEC6A7400F72121 /* VidyadharThatte */,
+				C28E19EA1AEC6A7400F72121 /* VidyadharThatteTests */,
+				C28E19D01AEC6A7400F72121 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C28E19D01AEC6A7400F72121 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C28E19CF1AEC6A7400F72121 /* VidyadharThatte.app */,
+				C28E19E71AEC6A7400F72121 /* VidyadharThatteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C28E19D11AEC6A7400F72121 /* VidyadharThatte */ = {
+			isa = PBXGroup;
+			children = (
+				C28E19D41AEC6A7400F72121 /* AppDelegate.swift */,
+				C2E227741AED6E200022C5CA /* SavedLocations.swift */,
+				C2E227701AED6DAF0022C5CA /* History.swift */,
+				C28E19D91AEC6A7400F72121 /* ViewController.swift */,
+				C28E19F71AEC744800F72121 /* SetInformation.swift */,
+				C28E19DB1AEC6A7400F72121 /* Main.storyboard */,
+				C2E227761AED7B430022C5CA /* LandingScene.swift */,
+				C28E19DE1AEC6A7400F72121 /* Images.xcassets */,
+				C28E19E01AEC6A7400F72121 /* LaunchScreen.xib */,
+				C28E19D61AEC6A7400F72121 /* VidyadharThatte.xcdatamodeld */,
+				C28E19D21AEC6A7400F72121 /* Supporting Files */,
+			);
+			path = VidyadharThatte;
+			sourceTree = "<group>";
+		};
+		C28E19D21AEC6A7400F72121 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C28E19D31AEC6A7400F72121 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C28E19EA1AEC6A7400F72121 /* VidyadharThatteTests */ = {
+			isa = PBXGroup;
+			children = (
+				C28E19ED1AEC6A7400F72121 /* VidyadharThatteTests.swift */,
+				C28E19EB1AEC6A7400F72121 /* Supporting Files */,
+			);
+			path = VidyadharThatteTests;
+			sourceTree = "<group>";
+		};
+		C28E19EB1AEC6A7400F72121 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C28E19EC1AEC6A7400F72121 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2E227541AED692E0022C5CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E2276B1AED69CB0022C5CA /* libsqlite3.dylib */,
+				C2E227691AED69C00022C5CA /* libz.dylib */,
+				C2E227671AED69B20022C5CA /* SystemConfiguration.framework */,
+				C2E227651AED69A60022C5CA /* StoreKit.framework */,
+				C2E227631AED69970022C5CA /* Security.framework */,
+				C2E227611AED698F0022C5CA /* QuartzCore.framework */,
+				C2E2275F1AED69890022C5CA /* MobileCoreServices.framework */,
+				C2E2275D1AED69790022C5CA /* CoreGraphics.framework */,
+				C2E2275B1AED69710022C5CA /* CFNetwork.framework */,
+				C2E227591AED696A0022C5CA /* AudioToolbox.framework */,
+				C2E227571AED693C0022C5CA /* Parse.framework */,
+				C28E19F91AEC78CB00F72121 /* CoreLocation.framework */,
+				C2E227551AED69380022C5CA /* Bolts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C28E19CE1AEC6A7400F72121 /* VidyadharThatte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28E19F11AEC6A7400F72121 /* Build configuration list for PBXNativeTarget "VidyadharThatte" */;
+			buildPhases = (
+				C28E19CB1AEC6A7400F72121 /* Sources */,
+				C28E19CC1AEC6A7400F72121 /* Frameworks */,
+				C28E19CD1AEC6A7400F72121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VidyadharThatte;
+			productName = VidyadharThatte;
+			productReference = C28E19CF1AEC6A7400F72121 /* VidyadharThatte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C28E19E61AEC6A7400F72121 /* VidyadharThatteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28E19F41AEC6A7400F72121 /* Build configuration list for PBXNativeTarget "VidyadharThatteTests" */;
+			buildPhases = (
+				C28E19E31AEC6A7400F72121 /* Sources */,
+				C28E19E41AEC6A7400F72121 /* Frameworks */,
+				C28E19E51AEC6A7400F72121 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C28E19E91AEC6A7400F72121 /* PBXTargetDependency */,
+			);
+			name = VidyadharThatteTests;
+			productName = VidyadharThatteTests;
+			productReference = C28E19E71AEC6A7400F72121 /* VidyadharThatteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C28E19C71AEC6A7400F72121 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Vidyadhar V Thatte";
+				TargetAttributes = {
+					C28E19CE1AEC6A7400F72121 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C28E19E61AEC6A7400F72121 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C28E19CE1AEC6A7400F72121;
+					};
+				};
+			};
+			buildConfigurationList = C28E19CA1AEC6A7400F72121 /* Build configuration list for PBXProject "VidyadharThatte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C28E19C61AEC6A7400F72121;
+			productRefGroup = C28E19D01AEC6A7400F72121 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C28E19CE1AEC6A7400F72121 /* VidyadharThatte */,
+				C28E19E61AEC6A7400F72121 /* VidyadharThatteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C28E19CD1AEC6A7400F72121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28E19DD1AEC6A7400F72121 /* Main.storyboard in Resources */,
+				C28E19E21AEC6A7400F72121 /* LaunchScreen.xib in Resources */,
+				C28E19DF1AEC6A7400F72121 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28E19E51AEC6A7400F72121 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C28E19CB1AEC6A7400F72121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28E19DA1AEC6A7400F72121 /* ViewController.swift in Sources */,
+				C28E19F81AEC744800F72121 /* SetInformation.swift in Sources */,
+				C28E19D81AEC6A7400F72121 /* VidyadharThatte.xcdatamodeld in Sources */,
+				C28E19D51AEC6A7400F72121 /* AppDelegate.swift in Sources */,
+				C2E227771AED7B430022C5CA /* LandingScene.swift in Sources */,
+				C2E227751AED6E200022C5CA /* SavedLocations.swift in Sources */,
+				C2E227711AED6DAF0022C5CA /* History.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28E19E31AEC6A7400F72121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28E19EE1AEC6A7400F72121 /* VidyadharThatteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C28E19E91AEC6A7400F72121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C28E19CE1AEC6A7400F72121 /* VidyadharThatte */;
+			targetProxy = C28E19E81AEC6A7400F72121 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C28E19DB1AEC6A7400F72121 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28E19DC1AEC6A7400F72121 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C28E19E01AEC6A7400F72121 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28E19E11AEC6A7400F72121 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C28E19EF1AEC6A7400F72121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C28E19F01AEC6A7400F72121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C28E19F21AEC6A7400F72121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.7.1",
+				);
+				INFOPLIST_FILE = VidyadharThatte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C28E19F31AEC6A7400F72121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.7.1",
+				);
+				INFOPLIST_FILE = VidyadharThatte/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C28E19F51AEC6A7400F72121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VidyadharThatteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VidyadharThatte.app/VidyadharThatte";
+			};
+			name = Debug;
+		};
+		C28E19F61AEC6A7400F72121 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VidyadharThatteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VidyadharThatte.app/VidyadharThatte";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C28E19CA1AEC6A7400F72121 /* Build configuration list for PBXProject "VidyadharThatte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28E19EF1AEC6A7400F72121 /* Debug */,
+				C28E19F01AEC6A7400F72121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28E19F11AEC6A7400F72121 /* Build configuration list for PBXNativeTarget "VidyadharThatte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28E19F21AEC6A7400F72121 /* Debug */,
+				C28E19F31AEC6A7400F72121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28E19F41AEC6A7400F72121 /* Build configuration list for PBXNativeTarget "VidyadharThatteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28E19F51AEC6A7400F72121 /* Debug */,
+				C28E19F61AEC6A7400F72121 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C28E19D61AEC6A7400F72121 /* VidyadharThatte.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C28E19D71AEC6A7400F72121 /* VidyadharThatte.xcdatamodel */,
+			);
+			currentVersion = C28E19D71AEC6A7400F72121 /* VidyadharThatte.xcdatamodel */;
+			path = VidyadharThatte.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C28E19C71AEC6A7400F72121 /* Project object */;
+}
